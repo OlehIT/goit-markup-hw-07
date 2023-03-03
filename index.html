@@ -60,23 +60,98 @@
             </li>
           </ul>
         </address>
+        <button class="button-mobile-menu-open" data-menu-open type="button">
+          <svg class="mobile-menu-burger" width="32" height="32">
+            <use href="./images/svg/sprite.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container">
+          <button class="button-mobile-menu-close" data-menu-close>
+            <svg class="mobile-menu-close" width="8" height="8">
+              <use href="./images/svg/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-list list">
+              <li class="mobile-menu-nav-item">
+                <a href="./index.html" class="mobile-menu-nav-link link current"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a href="./portfolio.html" class="mobile-menu-nav-link link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a href="" class="mobile-menu-nav-link link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-menu-address">
+            <ul class="mobile-menu-address-list list">
+              <li class="mobile-menu-address-item">
+                <a
+                  href="tel:+110001111111"
+                  class="mobile-menu-address-link-tel link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-menu-address-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-menu-address-link-mail link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-menu-social-list list">
+            <li class="mobile-menu-social-item">
+              <a class="mobile-menu-social-link" href="./index.html"
+                ><svg class="mobile-menu-social-svg" width="24" height="24">
+                  <use href="./images/svg/sprite.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a class="mobile-menu-social-link" href="./index.html">
+                <svg class="mobile-menu-social-svg" width="24" height="24">
+                  <use href="./images/svg/sprite.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a class="mobile-menu-social-link" href="./index.html"
+                ><svg class="mobile-menu-social-svg" width="24" height="24">
+                  <use href="./images/svg/sprite.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a class="mobile-menu-social-link" href="./index.html"
+                ><svg class="mobile-menu-social-svg" width="24" height="24">
+                  <use href="./images/svg/sprite.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- $$$$$$$$$$$$$$$$$$$$ /HEADER $$$$$$$$$$$$$$$$$$$$ -->
     <!-- $$$$$$$$$$$$$$$$$$$$ MAIN $$$$$$$$$$$$$$$$$$$$ -->
     <main class="main">
       <!-- ********** HERO ********** -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container container-hero">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-btn" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- ********** /HERO ********** -->
       <!-- ********** SKILLS ********** -->
-      <section class="skills">
+      <!-- <section class="skills">
         <div class="container container-slills">
           <h2 class="hidden">Skills</h2>
           <ul class="skills-list list">
@@ -130,10 +205,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- ********** /SKILLS ********** -->
       <!-- ********** WORK ********** -->
-      <section class="work">
+      <!-- <section class="work">
         <div class="container container-work">
           <h2 class="work-title">What are we doing</h2>
           <ul class="work-list list">
@@ -166,10 +241,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- ********** /WORK ********** -->
       <!-- ********** TEAM ********** -->
-      <section class="team">
+      <!-- <section class="team">
         <div class="container container-team">
           <h2 class="team-title">Our team</h2>
           <ul class="team-list list">
@@ -355,10 +430,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- ********** /TEAM ********** -->
       <!-- ********** CUSTOMERS ********** -->
-      <section class="customers">
+      <!-- <section class="customers">
         <div class="container container-customers">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
@@ -406,12 +481,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- ********** /CUSTOMERS ********** -->
     </main>
     <!-- $$$$$$$$$$$$$$$$$$$$ /MAIN $$$$$$$$$$$$$$$$$$$$ -->
     <!-- $$$$$$$$$$$$$$$$$$$$ FOOTER $$$$$$$$$$$$$$$$$$$$ -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container container-footer">
         <div class="footer-left">
           <a href="./index.html" class="footer-logo link"
@@ -468,7 +543,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- $$$$$$$$$$$$$$$$$$$$ /FOOTER $$$$$$$$$$$$$$$$$$$$ -->
 
     <!-- $$$$$$$$$$$$$$$$$$$$ BACKDROP $$$$$$$$$$$$$$$$$$$$ -->
@@ -477,7 +552,7 @@
       <div class="modal">
         <button type="button" class="modal-close-button" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
-            <use href="./images/svg/sprite.svg#icon-close-black"></use>
+            <use href="./images/svg/sprite.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
@@ -537,6 +612,7 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
     <!-- $$$$$$$$$$$$$$$$$$$$ /BACKDROP $$$$$$$$$$$$$$$$$$$$ -->
   </body>
 </html>
