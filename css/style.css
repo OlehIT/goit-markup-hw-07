@@ -88,7 +88,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: inherit;
-  margin-right: 76px;
 }
 
 .header-span {
@@ -242,13 +241,22 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    padding-bottom: 12px;
+  }
+
+  .header-logo-link {
+    margin-right: 123px;
+  }
+
   .header-nav {
-    margin-right: 118px;
+    margin-right: auto;
   }
 
   .header-nav-list {
     display: flex;
     gap: 40px;
+    align-items: center;
   }
 
   .header-nav-item {
@@ -269,6 +277,10 @@ img {
     color: var(--active-filter-background-color);
   }
 
+  .current {
+    color: var(--active-filter-background-color);
+  }
+
   .current::after {
     content: "";
     display: block;
@@ -277,7 +289,7 @@ img {
     background-color: #404bbf;
     border-radius: 2px;
     position: relative;
-    top: 25px;
+    top: 18px;
     pointer-events: none;
   }
 
