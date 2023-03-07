@@ -1006,8 +1006,7 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    padding-left: 108px;
-    padding-right: 108px;
+    justify-content: center;
   }
 
   .footer-left {
@@ -1046,8 +1045,6 @@ img {
     display: flex;
     flex-wrap: nowrap;
     column-gap: 0;
-    padding-left: 158px;
-    padding-right: 158px;
   }
 
   .footer-left {
