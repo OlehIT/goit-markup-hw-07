@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- $$$$$$$$$$$$$$$$$$$$ HEADER $$$$$$$$$$$$$$$$$$$$ -->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container container-header">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo-link link"
@@ -136,22 +136,22 @@
           </ul>
         </div>
       </div>
-    </header> -->
+    </header>
     <!-- $$$$$$$$$$$$$$$$$$$$ /HEADER $$$$$$$$$$$$$$$$$$$$ -->
     <!-- $$$$$$$$$$$$$$$$$$$$ MAIN $$$$$$$$$$$$$$$$$$$$ -->
     <main class="main">
       <!-- ********** HERO ********** -->
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container container-hero">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-btn" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- ********** /HERO ********** -->
       <!-- ********** SKILLS ********** -->
-      <!-- <section class="skills">
+      <section class="skills">
         <div class="container container-skills">
           <h2 class="hidden">Skills</h2>
           <ul class="skills-list list">
@@ -205,57 +205,118 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- ********** /SKILLS ********** -->
       <!-- ********** WORK ********** -->
-      <!-- <section class="work">
+      <section class="work">
         <div class="container container-work">
           <h2 class="work-title">What are we doing</h2>
           <ul class="work-list list">
             <li class="work-item">
-              <img
-                src="./images/studio-Image/profile_of_a_person_on_a_computer-min.jpg"
-                alt="Profile of a person on a computer"
-                width="360"
-                height="300"
-                class="work-img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-Image/profile_of_a_person_on_a_computer.webp   1x,
+                    ./images/studio-Image/profile_of_a_person_on_a_computer2@.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/studio-Image/profile_of_a_person_on_a_computer.jpg   1x,
+                    ./images/studio-Image/profile_of_a_person_on_a_computer2@.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/studio-Image/profile_of_a_person_on_a_computer.jpg"
+                  alt="Profile of a person on a computer"
+                  width="360"
+                  height="300"
+                />
+              </picture>
             </li>
             <li class="work-item">
-              <img
-                src="./images/studio-Image/a_phone_with_an_image_of_a_messenger-min.jpg"
-                alt="A phone with an image of a messenger"
-                width="360"
-                height="300"
-                class="work-img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-Image/a_phone_with_an_image_of_a_messenger.webp   1x,
+                    ./images/studio-Image/a_phone_with_an_image_of_a_messenger2@.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/studio-Image/a_phone_with_an_image_of_a_messenger.jpg   1x,
+                    ./images/studio-Image/a_phone_with_an_image_of_a_messenger2@.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/studio-Image/a_phone_with_an_image_of_a_messenger.jpg"
+                  alt="A phone with an image of a messenger"
+                  width="360"
+                  height="300"
+                />
+              </picture>
             </li>
             <li class="work-item">
-              <img
-                src="./images/studio-Image/a_phone_with_an_image_of_a_desert_with_the_name_of_the_most_inspiring_places_and_a_laptop_with_the_same_description_in_the_background-min.jpg"
-                alt="A phone with an image of a desert with the name of the most inspiring places and a laptop with the sam description in the background"
-                width="360"
-                height="300"
-                class="work-img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-Image/a_phone_with_an_image_of_a_desert_with_the_name_of_the_most_inspiring_places_and_a_laptop_with_the_same_description_in_the_background.webp   1x,
+                    ./images/studio-Image/a_phone_with_an_image_of_a_desert_with_the_name_of_the_most_inspiring_places_and_a_laptop_with_the_same_description_in_the_background2@.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/studio-Image/a_phone_with_an_image_of_a_desert_with_the_name_of_the_most_inspiring_places_and_a_laptop_with_the_same_description_in_the_background.jpg   1x,
+                    ./images/studio-Image/a_phone_with_an_image_of_a_desert_with_the_name_of_the_most_inspiring_places_and_a_laptop_with_the_same_description_in_the_background2@.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/studio-Image/a_phone_with_an_image_of_a_desert_with_the_name_of_the_most_inspiring_places_and_a_laptop_with_the_same_description_in_the_background.jpg"
+                  alt="A phone with an image of a desert with the name of the most inspiring places and a laptop with the sam description in the background"
+                  width="360"
+                  height="300"
+                />
+              </picture>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- ********** /WORK ********** -->
       <!-- ********** TEAM ********** -->
-      <!-- <section class="team">
+      <section class="team">
         <div class="container container-team">
           <h2 class="team-title">Our team</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img
-                src="./images/studio-Image/mark_guerrero-min.jpg"
-                alt="A man with a thick beard in a white shirt"
-                width="264"
-                height="260"
-                class="team-img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-Image/mark_guerrero.webp   1x,
+                    ./images/studio-Image/mark_guerrero2@.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/studio-Image/mark_guerrero.jpg   1x,
+                    ./images/studio-Image/mark_guerrero2@.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/studio-Image/mark_guerrero.jpg"
+                  alt="A man with a thick beard in a white shirt"
+                  width="264"
+                  height="260"
+                  class="team-img"
+                />
+              </picture>
               <div class="team-item-wrap">
                 <h3 class="team-item-title">Mark Guerrero</h3>
                 <p class="team-item-text">Product Designer</p>
@@ -294,13 +355,29 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/studio-Image/tom_ford-min.jpg"
-                alt="Smiling man in a white shirt"
-                width="264"
-                height="260"
-                class="team-img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-Image/tom_ford.webp   1x,
+                    ./images/studio-Image/tom_ford2@.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/studio-Image/tom_ford.jpg   1x,
+                    ./images/studio-Image/tom_ford2@.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/studio-Image/tom_ford.jpg"
+                  alt="Smiling man in a white shirt"
+                  width="264"
+                  height="260"
+                  class="team-img"
+                />
+              </picture>
               <div class="team-item-wrap">
                 <h3 class="team-item-title">Tom Ford</h3>
                 <p class="team-item-text">Frontend Developer</p>
@@ -339,13 +416,29 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/studio-Image/camila_garcia-min.jpg"
-                alt="A girl with brown hair in a pink sweater"
-                width="264"
-                height="260"
-                class="team-img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-Image/camila_garcia.webp   1x,
+                    ./images/studio-Image/camila_garcia2@.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/studio-Image/camila_garcia.jpg   1x,
+                    ./images/studio-Image/camila_garcia2@.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/studio-Image/camila_garcia.jpg"
+                  alt="A girl with brown hair in a pink sweater"
+                  width="264"
+                  height="260"
+                  class="team-img"
+                />
+              </picture>
               <div class="team-item-wrap">
                 <h3 class="team-item-title">Camila Garcia</h3>
                 <p class="team-item-text">Marketing</p>
@@ -384,13 +477,29 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/studio-Image/daniel_wilson-min.jpg"
-                alt="A smiling guy in a gray t-shirt"
-                width="264"
-                height="260"
-                class="team-img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/studio-Image/daniel_wilson.webp   1x,
+                    ./images/studio-Image/daniel_wilson2@.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/studio-Image/daniel_wilson.jpg   1x,
+                    ./images/studio-Image/daniel_wilson2@.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/studio-Image/daniel_wilson.jpg"
+                  alt="A smiling guy in a gray t-shirt"
+                  width="264"
+                  height="260"
+                  class="team-img"
+                />
+              </picture>
               <div class="team-item-wrap">
                 <h3 class="team-item-title">Daniel Wilson</h3>
                 <p class="team-item-text">UI Designer</p>
@@ -430,10 +539,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- ********** /TEAM ********** -->
       <!-- ********** CUSTOMERS ********** -->
-      <!-- <section class="customers">
+      <section class="customers">
         <div class="container container-customers">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
@@ -481,7 +590,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- ********** /CUSTOMERS ********** -->
     </main>
     <!-- $$$$$$$$$$$$$$$$$$$$ /MAIN $$$$$$$$$$$$$$$$$$$$ -->
